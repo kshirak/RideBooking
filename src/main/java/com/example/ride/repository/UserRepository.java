@@ -1,5 +1,8 @@
 package com.example.ride.repository;
 
-public class UserRepository {
-    
+import com.example.ride.entity.User;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface UserRepository
+        extends JpaRepository<User, Integer> {
 }

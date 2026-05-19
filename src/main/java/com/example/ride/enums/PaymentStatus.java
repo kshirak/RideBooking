@@ -1,5 +1,11 @@
 package com.example.ride.enums;
 
-public class PaymentStatus {
+public enum PaymentStatus {
+
+    REQUESTED,
+    ACCEPTED,
+    ONGOING,
+    COMPLETED,
+    CANCELLED
     
 }

@@ -1,5 +1,9 @@
 package com.example.ride.enums;
 
-public class DriverStatus {
+public enum DriverStatus {
+
+    AVAILABLE,
+    BUSY,
+    OFFLINE
     
 }
