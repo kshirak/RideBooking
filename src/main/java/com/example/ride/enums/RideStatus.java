@@ -2,8 +2,9 @@ package com.example.ride.enums;
 
 public enum RideStatus {
 
-    PENDING,
-    SUCCESS,
-    FAILED
-
+    REQUESTED,
+    ACCEPTED,
+    ONGOING,
+    COMPLETED,
+    CANCELLED
 }
