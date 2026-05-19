@@ -60,7 +60,8 @@ public class RideApplication
         
 		Scanner scan=new Scanner(System.in);
         while(true){
-            System.out.println("\n===== MENU =====");
+			System.out.println("\n---- WELCOME TO APP ----");
+            System.out.println("\n---- MENU ----");
             System.out.println("1. Register User");
             System.out.println("2. Register Driver");
             System.out.println("3. View Users");
