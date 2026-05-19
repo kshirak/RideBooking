@@ -8,19 +8,14 @@ public class Payment {
 
     @Id
     private int paymentId;
-
     private double amount;
-
     @Enumerated(EnumType.STRING)
     private PaymentStatus status;
-
     @OneToOne
     @JoinColumn(name = "trip_id")
     private Trip trip;
-
     public Payment() {
     }
-
     public Payment(int paymentId,
                    double amount,
                    PaymentStatus status,
